@@ -1,2 +1,2 @@
 # BitCoinKurs
-BitCoin values and MatLab-software for visualisation
+BitCoin values, Linux polling-software and MatLab-software for visualisation
