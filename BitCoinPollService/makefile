@@ -14,7 +14,7 @@ LNK = -lc -lcurl -lrt
 			${CC} -ggdb -O0 -c $<
 
 $(BIN):		$(OBJ)
-			${CC} ${LNK} $(OBJ) -o $(BIN)
+			${CC} $(OBJ) -o $(BIN) ${LNK} 
 			mv $(BIN) ../$(BIN)
 
 clean:
